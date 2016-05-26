@@ -1,0 +1,153 @@
+.links a {
+    text-decoration: none;
+    color: white!important;
+}
+
+/*.navFixed ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navFixed li {
+    float: left;
+    position: relative;
+    right: -35%;
+    text-align: right;
+}
+
+.navFixed li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navFixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+}
+.navFixed li a:hover:not(.active){
+
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    height: 27px;
+}
+.navFixed .active {
+    text-decoration: none;
+    color: red;
+    border-bottom: none;
+    
+}*/
+
+#links a:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+.arrowdown{
+  text-align: center;
+  font-weight: bolder;
+  padding: 40px 80px
+} 
+
+.navlink {
+    display: block;
+    color: white;
+    font-weight: bolder;
+
+}
+
+#imageReplace {
+    /*padding: 65px;*/
+    background-image: url('Chi1.jpg');
+    max-width: 100%;
+    margin: auto;
+    overflow: auto;
+    background-size: cover;
+    height: 700px;
+    -webkit-transition: all 1s ease; 
+    width: auto;
+}
+
+#imageInfo {
+    float: left;
+    margin: auto;
+}
+
+#imageTitle{
+    padding: 300px 0 0 50px;
+    color: white;
+}
+#imageCaption {
+    padding: 0 0 0 50px;
+    color: white;
+}
+#links {
+    /*background-color: transparent;*/
+    float: right;
+    margin: 10px;
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+    color: white;
+    border-bottom: none;
+    position: relative;
+    top: 200px;
+    /*text-decoration-color: white;*/
+ 
+
+}
+
+.currentlink{
+    color: white;
+    font-weight: bold;
+}
+/*.currentlink::before {
+    content: " - ";
+    color: red;
+}*/
+.currentlink::after {
+    content: " - ";
+    color: red;
+}
+
+#pagewidth {
+  width:100%;
+}
+
+/*@media only screen and (max-width : 480px)   {
+
+   #sidebar {
+      display: none;
+   }
+   
+   #content {
+      width: 300px;
+   }
+   
+   #header {
+      display: none;
+   }
+
+}*/
+
+/* Tablet Landscape */
+/*@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+ Tabled Portrait 
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+*/
